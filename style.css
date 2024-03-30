@@ -22,11 +22,11 @@
     width: 40%;
     padding-top: 200px;
     position: relative;
-    animation-name: dog ;
-    animation-duration: 1s;
-    
-
+    animation: dog 3s infinite;
 }
+
+/* animation for dog */
+
 @keyframes dog  {
     0% {
 left: 00px;
@@ -42,12 +42,44 @@ top: 0px;
 50% {
 
 left: 100px;
+top: -50px;
+    }
+
+100% {
+    
+    left: -100px;
+    top: 00px;
+         }
+ }
+
+ /* animation for girl */
+
+ .girl{
+    position: relative;
+    animation-name: girl ;
+    animation: girl 3s infinite;
+ }
+ @keyframes girl  {
+    0% {
+left: -500px;
+top: 0px;
+    }
+
+25% {
+    
+    left: -300px;
+    top: 0px;
+     }
+
+50% {
+
+left: -100px;
 top: 0px;
     }
 
 100% {
     
-    left: 0px;
-    top: -70px;
+    left: 20px;
+    top: 00px;
          }
  }
