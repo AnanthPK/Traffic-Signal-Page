@@ -1,0 +1,53 @@
+
+.bg{
+    width: 100%;
+    height: 100%;
+    background-image: url(./imgaes/road.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: auto;
+    padding: 12px 0px;
+}
+.light img{
+    width: 12%;
+    margin-left: 100px;
+    margin-top: 75px;
+    margin-bottom: -10px;
+}
+
+.car img{
+    width: 100%;
+}
+.dog{
+    width: 40%;
+    padding-top: 200px;
+    position: relative;
+    animation-name: dog ;
+    animation-duration: 1s;
+    
+
+}
+@keyframes dog  {
+    0% {
+left: 00px;
+top: 0px;
+    }
+
+25% {
+    
+    left: 250px;
+    top: 0px;
+     }
+
+50% {
+
+left: 100px;
+top: 0px;
+    }
+
+100% {
+    
+    left: 0px;
+    top: -70px;
+         }
+ }
